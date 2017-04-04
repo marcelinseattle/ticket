@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/scripts.js">
+    </script>
+  </head>
+  <body>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<div class="jumbotron">
+    				<h2>
+    					Epicodus Movie Theater
+    				</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form role="form" id="ticket">
+      			<div class="form-group">
+             <label for="new-first-name">Enter Your Name: </label>
+             <input type="text" class="form-control" id="name">
+            </div>
+
+            <label for="">Movies: </label>
+            <select class="form-control" id="movies">
+              <option value="forrestG">Forrest Gump</option>
+              <option value="beautyB">Beauty and the Beast</option>
+              <option value="kong">King Kong</option>
+              <option value="nemo">Finding Nemo</option>
+            </select>
+
+            <label for="">Time: </label>
+            <select class="form-control" id="time">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Aftertnoon</option>
+              <option value="evening">Evening</option>
+              <option value="weekend">Weekend</option>
+            </select>
+
+            <label for="">Age: </label>
+            <select class="form-control" id="age">
+              <option value="kid">Kid (under 13)</option>
+              <option value="teen">Teenager</option>
+              <option value="adult">Adult</option>
+              <option value="senior">Senior</option>
+            </select>
+            <br>
+      			<button type="submit" class="btn btn-default">
+      				Submit
+      			</button>
+      		</form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 cost-show">
+          <h2>Hello <span class="name"></span>!</h2>
+          <p>Your ticket cost: $<span class="price"></span></p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
